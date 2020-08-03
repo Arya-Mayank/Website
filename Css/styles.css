@@ -15,9 +15,16 @@
   padding: 60px 0 20px 0;
 }
 
-.contact-me, .bottom-container{
+.contact-me, {
   padding: 20px 0;
+
 }
+
+.bottom-container{
+  padding: 20px 0;
+
+}
+
 
 hr{
   border-style: dotted none none none;
@@ -37,33 +44,33 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+
+  background-color: #222831;
 }
 
 h1 {
   margin: 0;
   font-family: 'Sacramento', cursive;
-  font-size: 562%;
+  font-size: 5.625rem;
+  color: #7fdbda;
+}
+
+h2{
+  color: white;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #7fdbda;
 }
 
 p{
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
-.top-cloud {
-  height: 100px;
-  width: 150px;
-  position: absolute;
-  top: 270px;
-  right: 565px;
-}
 
-.bottom-cloud {
-  position: absolute;
-}
 
 .dp{
   border-radius: 100%;
@@ -74,10 +81,12 @@ p{
 
 .skill-wdesign, .skill-ps{
   margin: 0 20px;
+
 }
 
 .skill-row{
-  padding: 5px 45px;
+  padding: 25px 45px;
+
 }
 
 .footer-link{
